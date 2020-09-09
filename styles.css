@@ -3,3 +3,23 @@
   padding:0;
   margin:0;
 }
+body{
+  width:960px;
+  margin:auto;
+}
+table{
+  border:2px solid blue;
+  width:100%;
+  border-collapse:collapse;
+  text-align:center;
+}
+table caption{
+  background:url('assets/header-image.jpg') no-repeat;
+  height:60px;
+  width:100%;
+}
+table tr th, td{
+  padding:5px 0;
+  border-bottom:1px solid black;
+}
+
