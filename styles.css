@@ -5,21 +5,43 @@
 }
 body{
   width:960px;
-  margin:auto;
+  margin:0 auto;
 }
 table{
-  border:2px solid blue;
+  border-right:4px solid rgb(12, 12, 88);  
+  border-bottom:4px solid rgb(12, 12, 88);  
+  border-left:4px solid rgb(12, 12, 88);
   width:100%;
   border-collapse:collapse;
   text-align:center;
 }
-table caption{
-  background:url('assets/header-image.jpg') no-repeat;
+
+table caption img{
   height:60px;
   width:100%;
+  display:block;
 }
 table tr th, td{
   padding:5px 0;
   border-bottom:1px solid black;
+  font-size:12px;
+}
+
+table tr:first-child th{
+  border:none;
+}
+
+table th.lightorange, table td.lightorange{
+  background:rgb(240, 183, 153);
+  }
+table th.lightblue, table td.lightblue{
+  background:lightblue;
+  }
+table th.total-points, table td.total-points{
+  background:rgb(238, 43, 82);
+  color:white;
+  }
+table td.red-card{
+  font-weight:700;
 }
 
